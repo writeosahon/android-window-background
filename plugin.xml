@@ -13,8 +13,8 @@
   	<platform name="android">
   		<preference name="WINDOW_BACKGROUND_COLOR" />
 
-  		<edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='MainActivity']" mode="merge">
-  			<activity android:name="MainActivity" android:theme="@style/CordovaWindowBackgroundTheme"/>
+  		<edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='MapTEAZER']" mode="merge">
+  			<activity android:name="MapTEAZER" android:theme="@style/CordovaWindowBackgroundTheme"/>
   		</edit-config>
 
   		<source-file src="cordova-window-background-strings.xml" target-dir="app/src/main/res/values" />
