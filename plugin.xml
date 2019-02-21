@@ -14,9 +14,10 @@
   		<preference name="WINDOW_BACKGROUND_COLOR" />
 		<preference name="WINDOW_NAVIGATION_BAR_COLOR" />
 
-  		<edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='OAKExclusive']" mode="merge">
+		<!-- this code is commented to enable compatiblitiy with the CUSTOM URL SCHEME PLUGIN -->
+  		<!--<edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='OAKExclusive']" mode="merge">
   			<activity android:name="OAKExclusive" android:theme="@style/CordovaWindowBackgroundTheme"/>
-  		</edit-config>
+  		</edit-config> -->
 
   		<source-file src="cordova-window-background-strings.xml" target-dir="app/src/main/res/values" />
   		<source-file src="cordova-window-background-styles.xml" target-dir="app/src/main/res/values" />
