@@ -24,12 +24,12 @@
   		<source-file src="cordova-window-background-styles.xml" target-dir="res/values" />
 		-->
 
-  		<edit-config target="app/src/main/res/values/strings.xml" parent="/resources" mode="merge">
+  		<edit-config file="app/src/main/res/values/strings.xml" target="/resources" mode="merge">
   			<color name="cordova_window_background">$WINDOW_BACKGROUND_COLOR</color>
 			<color name="cordova_navigation_bar">$WINDOW_NAVIGATION_BAR_COLOR</color>
   		</edit-config>
 
-  		<edit-config target="app/src/main/res/values/styles.xml" parent="/resources" mode="merge">
+  		<edit-config file="app/src/main/res/values/styles.xml" target="/resources" mode="merge">
   			<style name="CordovaWindowBackgroundTheme" parent="@android:style/Theme.DeviceDefault.NoActionBar">
   				<item name="android:windowBackground">@color/cordova_window_background</item>
 				<item xmlns:tools="http://schemas.android.com/tools" name="android:navigationBarColor" tools:targetApi="21">@color/cordova_navigation_bar</item>
