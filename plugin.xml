@@ -25,8 +25,8 @@
 		-->
 
   		<edit-config file="app/src/main/res/values/strings.xml" target="/resources" mode="merge">
-  			<color name="cordova_window_background">$WINDOW_BACKGROUND_COLOR</color>
-			<color name="cordova_navigation_bar">$WINDOW_NAVIGATION_BAR_COLOR</color>
+  			<color name="cordova_window_background">#ffffff</color>
+			<color name="cordova_navigation_bar">#ffffff</color>
   		</edit-config>
 
   		<edit-config file="app/src/main/res/values/styles.xml" target="/resources" mode="merge">
